@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1356px) {
+	nav .container {
+	padding:0 7%;
+	transition: 2s;
+	}
+}
+@media only screen and (max-width: 1140px) {
+	.logo {
+			position: absolute;
+			left:45%;
+			top: 45px;
+	}
+	nav a {
+	display:none;
+	border:none;
+	width: auto;
+	text-align: center;
+	}
+	nav .icon 
+	{
+	float: right;
+	display: block;
+	font-size: 24px;
+	color: white;
+	margin-top: -15px;
+	}
+	nav {
+		width: 100%
+	}
+	.nav.responsive {
+		position: relative;
+		top:50px;
+		left:-17%;
+	}
+	header .nav.responsive {
+		height: 340px;
+	}
+	.nav.responsive a {
+		display: block;
+		float:none;
+	}
+	.main1 #head_off {
+	font-size: 25px;
+	font-weight: 100;
+	width: 450px;
+	height: 45px;
+	transition: 2s;
+}
+	.main1 #head__off {
+	font-size: 25px;
+	width: 535px;
+	height: 45px;
+	transition: 2s;
+}
+	body header {
+		height:70vh;
+}
+	.menu ul {
+	margin-left: 20%;
+	padding-top: 85px;
+}
+	.main3 .table {
+		margin-left: 20%;
+		grid-template-columns: 250px;
+		grid-gap: 5px;
+}
+	.main4 .parts {
+		display: block;
+		text-align: center;
+	}
+	.main4 .line2 {
+		display: none;
+	}
+	.main4 img {
+		width: 450px;
+		height: 250px;
+}
+	.main4 .left_part {
+		margin: 0 auto;
+		display: block;
+		transition: 1.5s;
+	}
+	.main4 .right_part{
+		display: block;
+		margin: 0 auto;
+		padding-top: 15px;
+		transition: 1.5s;
+	}
+	.main5 {
+		text-align: center;
+	}
+	.main5 .line2 {
+		display: none;
+	}
+	body .main6 {
+		padding: 15px 0 15px 0;
+		text-align: center;
+		transition: 1.5s;
+	}
+	.main6 .part {
+		display: block;
+
+	}
+	.main6 .line2 {
+		display: none;
+	}
+	.main8 .inputs {
+		grid-template-columns: 100%;
+		text-align: center;
+		font-size: 12px;
+	}
+	.main8 textarea {
+		width: 100%;
+		height: 200px;
+		margin-bottom: -30px;
+		font-size: 12px;
+	}
+	.main3 .table img {
+		width: 100%;
+		height: 100%;
+}
